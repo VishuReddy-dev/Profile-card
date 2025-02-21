@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  backdrop-filter: blur(2px);
+  padding: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 30rem;
+  height: 70%;
+
+  .img-1 {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #fccaf8;
+  }
+  .card-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
